@@ -1,0 +1,172 @@
+/* 顶部 */
+.mui-bar.mui-bar-nav.top {
+	background: #000;
+	color: #fff;
+}
+
+.mui-bar.mui-bar-nav.top input {
+	background: #fff;
+	color: #000000;
+}
+
+.mui-inpu-row.mui-search.mui-active:before{
+	color: #000;
+}
+
+.mui-search input[type=search] {
+	width: 85%;
+}
+
+.mui-search .mui-placeholder {
+	width: 10%;
+}
+
+.mui-bar.mui-bar-nav.top i {
+	font-size: 26px;
+    margin-top: 10px;
+    margin-right: 7px;
+}
+
+/* 轮播 */
+.mui-slider {
+	padding-top: 44px;
+}
+
+.mui-slider img {
+	width: 100%;
+	height: 130px;
+}
+
+/* banner */
+
+.banner .list {
+	height: 100px;
+}
+
+.banner .list ul {
+	width: 100%;
+	height: 100%;
+	padding: 0;
+}
+
+.banner .list ul li {
+	float: left;
+	list-style: none;
+	width: 20%;
+	height: 100%;
+	text-align: center;
+}
+
+.banner .list ul li i {
+	font-size: 35px;
+	display: block;
+	margin-top: 20px;
+	color: #505156;
+}
+
+.banner .list ul li p {
+	margin-top: 15px;
+	color: #000;
+}
+
+.mui-table-view-cell.ad span:nth-child(1) {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.mui-table-view-cell.ad i {
+	display: inline-block;
+	margin: 0 5px;
+	font-size: 14px;
+	color: #333;
+}
+
+.mui-table-view-cell.ad span:nth-child(3) {
+	font-size: 12px;
+	color: #999;
+}
+
+
+.ad-img {
+	width: 90%;	
+	height: 100px;
+	margin: 10px auto;
+}
+
+.ad-img img {
+	width: 100%;
+	height: 100%;
+}
+
+/* proList */
+
+.mui-table-view.prolist {
+	padding-bottom: 0;
+}
+
+.prolist .noBor::after {
+	height: 0;
+}
+
+.mui-table-view-cell.noBor {
+	text-align: center;
+}
+
+.mui-table-view-cell.noBor span {
+	position: relative;
+}
+
+.mui-table-view.prolist li:first-child {
+	padding-top: 20px;
+}
+
+.mui-table-view.prolist li:first-child span::after {
+	position: absolute;
+	content: '免费参与';
+	display: block;
+	top: -5px;
+	right: -65px;
+	background: #4AD797;
+	font-size: 12px;
+	padding: 3px 5px;
+	border-radius: 5px;
+	transform: skewX(-10deg);
+}
+
+.mui-table-view.prolist li:nth-child(2) {
+	font-size: 14px;
+	color: #999;
+	padding-top: 5px;
+}
+
+.mui-table-view.prolist li:last-child {
+ 	text-align: center;
+}
+
+.mui-table-view.prolist li:last-child a {
+	display: inline-block;
+	font-size: 14px;
+	color: #999;
+}
+
+.mui-table-view.prolist li:last-child a::after {
+	right: -5px;
+}
+
+.mui-table-view.prolist li:nth-child(3)::after {
+	height: 0;
+}
+
+.mui-table-view.prolist li:nth-child(4) {
+	border-top: 1px solid #ccc;
+}
+
+.mui-table-view-cell.imgBox {
+	width: 100%;
+	height: auto;
+}
+
+.mui-table-view-cell.imgBox img {
+	width: 100%;
+	height: 100%;
+}

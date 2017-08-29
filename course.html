@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <script src="js/mui.min.js"></script>
+    <link href="css/mui.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
+    <link rel="stylesheet" type="text/css" href="css/course.css"/>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+    </script>
+</head>
+<body>
+	<!-- 顶部 -->
+	<header class="mui-bar mui-bar-nav top">
+		<div class="mui-input-row mui-search">
+		    <input type="search" class="mui-input-clear" placeholder="">
+		    <i class="iconfont mui-pull-right">&#xe68c;</i>
+		</div>
+	</header>
+	
+	<!-- 轮播 -->
+	<div id="slider" class="mui-slider" >
+	  <div class="mui-slider-group mui-slider-loop">
+	    <!-- 额外增加的一个节点(循环轮播：第一个节点是最后一张轮播) -->
+	    <div class="mui-slider-item mui-slider-item-duplicate">
+	      <a href="#">
+	        <img src="img/timg1.jpg">
+	      </a>
+	    </div>
+	    <!-- 第一张 -->
+	    <div class="mui-slider-item">
+	      <a href="#">
+	        <img src="img/timg.jpg">
+	      </a>
+	    </div>
+	    <!-- 第二张 -->
+	    <div class="mui-slider-item">
+	      <a href="#">
+	        <img src="img/timg1.jpg">
+	      </a>
+	    </div>
+	    <!-- 额外增加的一个节点(循环轮播：最后一个节点是第一张轮播) -->
+	    <div class="mui-slider-item mui-slider-item-duplicate">
+	      <a href="#">
+	        <img src="img/timg.jpg">
+	      </a>
+	    </div>
+	  </div>
+	  <div class="mui-slider-indicator">
+	    <div class="mui-indicator mui-active"></div>
+	    <div class="mui-indicator"></div>
+	  </div>
+	</div>
+	
+	<!-- banner -->
+	<!--<ul class="banner">
+		<li>
+			<a href="">
+				<i class="iconfont">&#xe60a;</i>
+				<p>视频课</p>
+			</a>
+		</li>
+		<li>
+			<a href="">
+				<i class="iconfont">&#xe60a;</i>
+				<p>直播课</p>
+			</a>
+		</li>
+		<li>
+			<a href="">
+				<i class="iconfont">&#xe60a;</i>
+				<p>专栏</p>
+			</a>
+		</li>
+		<li>
+			<a href="">
+				<i class="iconfont">&#xe60a;</i>
+				<p>琴行</p>
+			</a>
+		</li>
+		<li>
+			<a href="">
+				<i class="iconfont">&#xe60a;</i>
+				<p>入驻</p>
+			</a>
+		</li>
+	</ul>-->
+	<ul class="mui-table-view banner">
+	        <li class="mui-table-view-cell list">
+	        	<ul>
+	        		<li>
+						<a href="">
+							<i class="iconfont">&#xe60a;</i>
+							<p>视频课</p>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<i class="iconfont">&#xe610;</i>
+							<p>直播课</p>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<i class="iconfont">&#xe681;</i>
+							<p>专栏</p>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<i class="iconfont">&#xe62f;</i>
+							<p>琴行</p>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<i class="iconfont">&#xe635;</i>
+							<p>入驻</p>
+						</a>
+					</li>
+	        	</ul>
+	        </li>
+	        <li class="mui-table-view-cell ad">
+	            <a class="mui-navigate-right">
+	                <span>Finger公告</span>
+	                <i class="iconfont">&#xe623;</i>
+	                <span>这是个毒节奏！我要控制不住自己啦！！</span>
+	            </a>
+	        </li>
+	    </ul>
+    <!-- 广告 -->
+    <div class="ad-img">
+    	<img src="img/timg2.jpg"/>
+    </div>
+	
+	<!-- proList -->
+	<ul class="mui-table-view prolist">
+	        <li class="mui-table-view-cell noBor ">
+	            <a class="">
+	            	<span>精品视频课程</span>
+	            </a>
+	        </li>
+	        <li class="mui-table-view-cell noBor">
+	            <a class="">
+	             	官方出品，从入门到进阶
+	            </a>
+	        </li>
+	        <li class="mui-table-view-cell imgBox">
+	            <a class="">
+	                 <img src="img/list1.png"/>
+	            </a>
+	        </li>
+	        <li class="mui-table-view-cell">
+	            <a class="mui-navigate-right">
+	               	 查看更多
+	            </a>
+	        </li>
+	    </ul>
+</body>
+</html>

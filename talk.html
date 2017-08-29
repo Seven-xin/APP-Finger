@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<script src="js/mui.min.js"></script>
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css" />
+		<link rel="stylesheet" type="text/css" href="css/talk.css" />
+		<script type="text/javascript" charset="utf-8">
+			mui.init();
+		</script>
+		<style type="text/css">
+			.roll-line {
+				width: 80%;
+				background: transparent;
+				height: 2px;
+				margin: 0 auto;
+				margin-top: 5px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="mui-slider">
+			<!-- 顶部标题栏 -->
+			<div class="fiexd">
+				<div class="mui-slider-indicator mui-segmented-control mui-segmented-control-inverted">
+					<a class="mui-control-item" href="#item1">看点</a>
+					<a class="mui-control-item" href="#item2">热门</a>
+					<a class="mui-control-item" href="#item3">关注</a>
+					<a class="mui-control-item" href="#item4">最新</a>
+				</div>
+				<!--<div id="sliderProgressBar" class="mui-slider-progress-bar mui-col-xs-3"></div>-->
+			</div>
+			<!-- 内容 -->
+			<div class="mui-slider-group">
+				<!-- 看点 -->
+				<div id="item1" class="mui-slider-item mui-control-content mui-active has-m-top26">
+					<div id="slider" class="mui-slider">
+						<div class="mui-slider-group mui-slider-loop">
+							<!-- 额外增加的一个节点(循环轮播：第一个节点是最后一张轮播) -->
+							<div class="mui-slider-item mui-slider-item-duplicate">
+								<a href="#">
+									<img src="img/dj222.jpg">
+								</a>
+							</div>
+							<!-- 第一张 -->
+							<div class="mui-slider-item">
+								<a href="#">
+									<img src="img/dj111.jpg">
+								</a>
+							</div>
+							<!-- 第二张 -->
+							<div class="mui-slider-item">
+								<a href="#">
+									<img src="img/dj222.jpg">
+								</a>
+							</div>
+							<!-- 额外增加的一个节点(循环轮播：最后一个节点是第一张轮播) -->
+							<div class="mui-slider-item mui-slider-item-duplicate">
+								<a href="#">
+									<img src="img/dj111.jpg">
+								</a>
+							</div>
+						</div>
+						<div class="mui-slider-indicator">
+							<div class="mui-indicator mui-active"></div>
+							<div class="mui-indicator"></div>
+						</div>
+					</div>
+					<ul class="title">
+						<li>
+							<a>
+								<i class="iconfont">&#xe681;</i>
+								<span>达人榜单</span>
+							</a>
+						</li>
+						<li>
+							<a>
+								<i class="iconfont">&#xe62a;</i>
+								<span>选琴攻略</span>
+							</a>
+						</li>
+					</ul>
+					<!-- 看点 -->
+					<ul class="mui-table-view look">
+						<li class="mui-table-view-cell">
+							<a class="">
+								<p>音乐看点</p>
+								<p>您好，在Finger遇见相似的灵魂</p>
+							</a>
+						</li>
+					</ul>
+					<!-- card -->
+					<div class="mui-card card1">
+						<div class="mui-card-header mui-card-media" style="height:40vw;background-image:url(img/timg.jpg)"></div>
+						<div class="mui-card-content">
+							<div class="mui-card-content-inner">
+								<p style="color: #333;">同样是明星父母的子女，列侬之子与王菲之女有何异同？</p>
+							</div>
+						</div>
+						<div class="mui-card-footer">
+							<a class="mui-card-link">by Johnny Zhu</a>
+							<a class="mui-card-link">2小时前</a>
+						</div>
+					</div>
+					<ul class="mui-table-view card2">
+						<li class="mui-table-view-cell mui-media">
+							<img class="mui-media-object mui-pull-right" src="img/dj222.jpg">
+							<p>国歌吹成这样，还怎么保家卫国</p>
+							<p>
+								<span class="mui-pull-left">by 柿子君</span>
+								<span class="mui-pull-right">3小时前</span>
+							</p>
+						</li>
+					</ul>
+					<ul class="mui-table-view card2">
+						<li class="mui-table-view-cell mui-media">
+							<img class="mui-media-object mui-pull-right" src="img/dj222.jpg">
+							<p>国歌吹成这样，还怎么保家卫国</p>
+							<p>
+								<span class="mui-pull-left">by 柿子君</span>
+								<span class="mui-pull-right">3小时前</span>
+							</p>
+						</li>
+					</ul>
+					<!-- card2 -->
+					<div class="mui-card card1 has-m-top">
+						<div class="mui-card-header mui-card-media" style="height:40vw;background-image:url(img/timg.jpg)"></div>
+						<div class="mui-card-content">
+							<div class="mui-card-content-inner">
+								<p style="color: #333;">同样是明星父母的子女，列侬之子与王菲之女有何异同？</p>
+							</div>
+						</div>
+						<div class="mui-card-footer">
+							<a class="mui-card-link">by Johnny Zhu</a>
+							<a class="mui-card-link">2小时前</a>
+						</div>
+					</div>
+					<ul class="mui-table-view card2">
+						<li class="mui-table-view-cell mui-media">
+							<img class="mui-media-object mui-pull-right" src="img/dj222.jpg">
+							<p>国歌吹成这样，还怎么保家卫国</p>
+							<p>
+								<span class="mui-pull-left">by 柿子君</span>
+								<span class="mui-pull-right">3小时前</span>
+							</p>
+						</li>
+					</ul>
+					<ul class="mui-table-view card2">
+						<li class="mui-table-view-cell mui-media">
+							<img class="mui-media-object mui-pull-right" src="img/dj222.jpg">
+							<p>国歌吹成这样，还怎么保家卫国</p>
+							<p>
+								<span class="mui-pull-left">by 柿子君</span>
+								<span class="mui-pull-right">3小时前</span>
+							</p>
+						</li>
+					</ul>
+				</div>
+				<!-- 热门 -->
+				<div id="item2" class="mui-slider-item mui-control-content hot has-m-top50">
+					<!-- 全部 -->
+					<ul class="mui-table-view">
+						<li class="mui-table-view-cell all">
+							<a class="mui-navigate-right">
+								<span>热门话题</span>
+								<span class="mui-pull-right">全部</span>
+							</a>
+						</li>
+					</ul>
+					<!-- 热门话题topic -->
+					<div class="topic">
+						<ul class="topic-imgBox">
+							<li>
+								<a href="####">
+									<img src="img/dj111.jpg" alt="" />
+									<p>#Yamaha吉他女生弹唱#</p>
+								</a>
+							</li>
+							<li>
+								<a href="####">
+									<img src="img/dj111.jpg" alt="" />
+									<p>#Yamaha吉他女生弹唱#</p>
+								</a>
+							</li>
+							<li>
+								<a href="####">
+									<img src="img/dj111.jpg" alt="" />
+									<p>#Yamaha吉他女生弹唱#</p>
+								</a>
+							</li>
+							<li>
+								<a href="####">
+									<img src="img/dj111.jpg" alt="" />
+									<p>#Yamaha吉他女生弹唱#</p>
+								</a>
+							</li>
+							<li>
+								<a href="####">
+									<img src="img/dj111.jpg" alt="" />
+									<p>#Yamaha吉他女生弹唱#</p>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<!-- hot-ad -->
+					<div class="hot-ad">
+						<img src="img/timg.jpg" />
+					</div>
+					<!-- hot-list -->
+					<div class="hot-list">
+						<ul class="">
+							<li>
+								<img src="img/dj111.jpg" alt="" />
+								<div class="hot-list-intor">
+									<p>原创1 草东没有派对</p>
+									<div class="">
+										<img src="img/dj111.jpg" alt="" />
+										<span>挂留和弦</span>
+										<!--<i>lv 6</i>-->
+									</div>
+								</div>
+								<div class="talk">
+									<span class="mui-pull-left">
+										<i class="iconfont">&#xe602;</i>
+										20
+									</span>
+									<span class="mui-pull-right">
+										<i class="iconfont">&#xe6dd;</i>
+										12
+									</span>
+								</div>
+							</li>
+							<li>
+								<img src="img/dj111.jpg" alt="" />
+								<div class="hot-list-intor">
+									<p>原创1 草东没有派对</p>
+									<div class="">
+										<img src="img/dj111.jpg" alt="" />
+										<span>挂留和弦</span>
+										<!--<i>lv 6</i>-->
+									</div>
+								</div>
+								<div class="talk">
+									<span class="mui-pull-left">
+										<i class="iconfont">&#xe602;</i>
+										20
+									</span>
+									<span class="mui-pull-right">
+										<i class="iconfont">&#xe6dd;</i>
+										12
+									</span>
+								</div>
+							</li>
+							<li>
+								<img src="img/dj111.jpg" alt="" />
+								<div class="hot-list-intor">
+									<p>原创1 草东没有派对</p>
+									<div class="">
+										<img src="img/dj111.jpg" alt="" />
+										<span>挂留和弦</span>
+										<!--<i>lv 6</i>-->
+									</div>
+								</div>
+								<div class="talk">
+									<span class="mui-pull-left">
+										<i class="iconfont">&#xe602;</i>
+										20
+									</span>
+									<span class="mui-pull-right">
+										<i class="iconfont">&#xe6dd;</i>
+										12
+									</span>
+								</div>
+							</li>
+							<li>
+								<img src="img/dj111.jpg" alt="" />
+								<div class="hot-list-intor">
+									<p>原创1 草东没有派对</p>
+									<div class="">
+										<img src="img/dj111.jpg" alt="" />
+										<span>挂留和弦</span>
+										<!--<i>lv 6</i>-->
+									</div>
+								</div>
+								<div class="talk">
+									<span class="mui-pull-left">
+										<i class="iconfont">&#xe602;</i>
+										20
+									</span>
+									<span class="mui-pull-right">
+										<i class="iconfont">&#xe6dd;</i>
+										12
+									</span>
+								</div>
+							</li>
+							<li>
+								<img src="img/dj111.jpg" alt="" />
+								<div class="hot-list-intor">
+									<p>原创1 草东没有派对</p>
+									<div class="">
+										<img src="img/dj111.jpg" alt="" />
+										<span>挂留和弦</span>
+										<!--<i>lv 6</i>-->
+									</div>
+								</div>
+								<div class="talk">
+									<span class="mui-pull-left">
+										<i class="iconfont">&#xe602;</i>
+										20
+									</span>
+									<span class="mui-pull-right">
+										<i class="iconfont">&#xe6dd;</i>
+										12
+									</span>
+								</div>
+							</li>
+							<li>
+								<img src="img/dj111.jpg" alt="" />
+								<div class="hot-list-intor">
+									<p>原创1 草东没有派对</p>
+									<div class="">
+										<img src="img/dj111.jpg" alt="" />
+										<span>挂留和弦</span>
+										<!--<i>lv 6</i>-->
+									</div>
+								</div>
+								<div class="talk">
+									<span class="mui-pull-left">
+										<i class="iconfont">&#xe602;</i>
+										20
+									</span>
+									<span class="mui-pull-right">
+										<i class="iconfont">&#xe6dd;</i>
+										12
+									</span>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!-- 关注 -->
+				<div id="item3" class="mui-slider-item mui-control-content has-m-top50">
+					<ul class="mui-table-view">
+					</ul>
+				</div>
+				<!-- 最新 -->
+				<div id="item4" class="mui-slider-item mui-control-content has-m-top50">
+					<ul class="mui-table-view">
+						<div class="mui-slider new ">
+							<div class="mui-slider-indicator mui-segmented-control mui-segmented-control-inverted">
+								<a class="mui-control-item" href="#item1-table">评论最新</a>
+								<a class="mui-control-item" href="#item2-table">发布最新</a>
+							</div>
+							<div class="roll-line">
+								<div id="sliderProgressBar" class="mui-slider-progress-bar mui-col-xs-6">
+									<div id="">
+									</div>
+								</div>
+							</div>
+							<div class="mui-slider-group new-talk">
+								<div id="item1-table" class="mui-slider-item mui-control-content  mui-active">
+									<ul class="mui-table-view">
+										<li class="mui-table-view-cell ">
+											<div class="item-title">
+												<div class="item-tl">
+													<img class="mui-pull-left" src="img/dj111.jpg" />
+													<span class="mui-pull-left">星雅琴行</span>
+													<!--<i class="">lv .6</i>-->
+												</div>
+												<div class="item-tr mui-pull-right">
+													1天前
+												</div>
+											</div>
+											<p class="item-p">不知道从什么时候开始，“xxx元包教会送吉他”成为了众多培训机构在招生时的广告范本，这事如果是在10年前，按照市场........</p>
+											<ul class="itemTabImgBox">
+												<li><img src="img/dj222.jpg" /></li>
+												<li><img src="img/dj111.jpg" /></li>
+											</ul>
+											<div class="type">
+												<i class="iconfont">&#xe61d;</i>
+												<span>民谣吉他 评测 教学</span>
+											</div>
+											<div class="itemBottom">
+												<div class="mui-pull-left">
+													<i class="iconfont">&#xe602;</i>
+													<span>153</span>
+												</div>
+												<div class="mui-pull-right">
+													<i class="iconfont">&#xe681;</i>
+													<span>2</span>
+													<i class="iconfont">&#xe6dd;</i>
+													<span>5</span>
+													<i class="mui-icon mui-icon mui-icon-starhalf"></i>
+												</div>
+											</div>
+										</li>
+										<li class="mui-table-view-cell ">
+											<div class="item-title">
+												<div class="item-tl">
+													<img class="mui-pull-left" src="img/dj111.jpg" />
+													<span class="mui-pull-left">星雅琴行</span>
+													<!--<i class="">lv .6</i>-->
+												</div>
+												<div class="item-tr mui-pull-right">
+													1天前
+												</div>
+											</div>
+											<p class="item-p">不知道从什么时候开始，“xxx元包教会送吉他”成为了众多培训机构在招生时的广告范本，这事如果是在10年前，按照市场........</p>
+											<ul class="itemTabImgBox">
+												<li><img src="img/dj222.jpg" /></li>
+												<li><img src="img/dj111.jpg" /></li>
+											</ul>
+											<div class="type">
+												<i class="iconfont">&#xe61d;</i>
+												<span>民谣吉他 评测 教学</span>
+											</div>
+											<div class="itemBottom">
+												<div class="mui-pull-left">
+													<i class="iconfont">&#xe602;</i>
+													<span>153</span>
+												</div>
+												<div class="mui-pull-right">
+													<i class="iconfont">&#xe681;</i>
+													<span>2</span>
+													<i class="iconfont">&#xe6dd;</i>
+													<span>5</span>
+													<i class="mui-icon mui-icon mui-icon-starhalf"></i>
+												</div>
+											</div>
+										</li>
+										<li class="mui-table-view-cell ">
+											<div class="item-title">
+												<div class="item-tl">
+													<img class="mui-pull-left" src="img/dj111.jpg" />
+													<span class="mui-pull-left">星雅琴行</span>
+													<!--<i class="">lv .6</i>-->
+												</div>
+												<div class="item-tr mui-pull-right">
+													1天前
+												</div>
+											</div>
+											<p class="item-p">不知道从什么时候开始，“xxx元包教会送吉他”成为了众多培训机构在招生时的广告范本，这事如果是在10年前，按照市场........</p>
+											<ul class="itemTabImgBox">
+												<li><img src="img/dj111.jpg" /></li>
+												<li><img src="img/dj222.jpg" /></li>
+											</ul>
+											<div class="type">
+												<i class="iconfont">&#xe61d;</i>
+												<span>民谣吉他 评测 教学</span>
+											</div>
+											<div class="itemBottom">
+												<div class="mui-pull-left">
+													<i class="iconfont">&#xe602;</i>
+													<span>153</span>
+												</div>
+												<div class="mui-pull-right">
+													<i class="iconfont">&#xe681;</i>
+													<span>2</span>
+													<i class="iconfont">&#xe6dd;</i>
+													<span>5</span>
+													<i class="mui-icon mui-icon mui-icon-starhalf"></i>
+												</div>
+											</div>
+										</li>
+									</ul>
+								</div>
+								<div id="item2-table" class="mui-slider-item mui-control-content">
+									<ul class="mui-table-view">
+										<li class="mui-table-view-cell ">
+											<div class="item-title">
+												<div class="item-tl">
+													<img class="mui-pull-left" src="img/dj111.jpg" />
+													<span class="mui-pull-left">星雅琴行</span>
+													<!--<i class="">lv .6</i>-->
+												</div>
+												<div class="item-tr mui-pull-right">
+													1天前
+												</div>
+											</div>
+											<p class="item-p">不知道从什么时候开始，“xxx元包教会送吉他”成为了众多培训机构在招生时的广告范本，这事如果是在10年前，按照市场........</p>
+											<ul class="itemTabImgBox">
+												<li><img src="img/dj111.jpg" /></li>
+												<li><img src="img/dj222.jpg" /></li>
+											</ul>
+											<div class="type">
+												<i class="iconfont">&#xe61d;</i>
+												<span>民谣吉他 评测 教学</span>
+											</div>
+											<div class="itemBottom">
+												<div class="mui-pull-left">
+													<i class="iconfont">&#xe602;</i>
+													<span>153</span>
+												</div>
+												<div class="mui-pull-right">
+													<i class="iconfont">&#xe681;</i>
+													<span>2</span>
+													<i class="iconfont">&#xe6dd;</i>
+													<span>5</span>
+													<i class="mui-icon mui-icon mui-icon-starhalf"></i>
+												</div>
+											</div>
+										</li>
+										<li class="mui-table-view-cell ">
+											<div class="item-title">
+												<div class="item-tl">
+													<img class="mui-pull-left" src="img/dj111.jpg" />
+													<span class="mui-pull-left">星雅琴行</span>
+													<!--<i class="">lv .6</i>-->
+												</div>
+												<div class="item-tr mui-pull-right">
+													1天前
+												</div>
+											</div>
+											<p class="item-p">不知道从什么时候开始，“xxx元包教会送吉他”成为了众多培训机构在招生时的广告范本，这事如果是在10年前，按照市场........</p>
+											<ul class="itemTabImgBox">
+												<li><img src="img/dj111.jpg" /></li>
+												<li><img src="img/dj222.jpg" /></li>
+											</ul>
+											<div class="type">
+												<i class="iconfont">&#xe61d;</i>
+												<span>民谣吉他 评测 教学</span>
+											</div>
+											<div class="itemBottom">
+												<div class="mui-pull-left">
+													<i class="iconfont">&#xe602;</i>
+													<span>153</span>
+												</div>
+												<div class="mui-pull-right">
+													<i class="iconfont">&#xe681;</i>
+													<span>2</span>
+													<i class="iconfont">&#xe6dd;</i>
+													<span>5</span>
+													<i class="mui-icon mui-icon mui-icon-starhalf"></i>
+												</div>
+											</div>
+										</li>
+										<li class="mui-table-view-cell ">
+											<div class="item-title">
+												<div class="item-tl">
+													<img class="mui-pull-left" src="img/dj111.jpg" />
+													<span class="mui-pull-left">星雅琴行</span>
+													<!--<i class="">lv .6</i>-->
+												</div>
+												<div class="item-tr mui-pull-right">
+													1天前
+												</div>
+											</div>
+											<p class="item-p">不知道从什么时候开始，“xxx元包教会送吉他”成为了众多培训机构在招生时的广告范本，这事如果是在10年前，按照市场........</p>
+											<ul class="itemTabImgBox">
+												<li><img src="img/dj222.jpg" /></li>
+												<li><img src="img/dj111.jpg" /></li>
+											</ul>
+											<div class="type">
+												<i class="iconfont">&#xe61d;</i>
+												<span>民谣吉他 评测 教学</span>
+											</div>
+											<div class="itemBottom">
+												<div class="mui-pull-left">
+													<i class="iconfont">&#xe602;</i>
+													<span>153</span>
+												</div>
+												<div class="mui-pull-right">
+													<i class="iconfont">&#xe681;</i>
+													<span>2</span>
+													<i class="iconfont">&#xe6dd;</i>
+													<span>5</span>
+													<i class="mui-icon mui-icon mui-icon-starhalf"></i>
+												</div>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
